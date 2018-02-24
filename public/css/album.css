@@ -1,0 +1,117 @@
+body{
+  font-family: 'Jura', sans-serif;
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.customNavbar{
+  background: black;
+}
+
+.svg-inline--fa.fa-bars{
+  color: #fff;
+  margin-top: 5px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.carView{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.carDetail{
+  font-size:20px;
+}
+
+.carPost{
+  margin-top: 40px;
+}
+
+.carPostButton{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.customToggler{
+  border-style: solid;
+  border-color: white;
+}
+
+.editForm{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inputCarEdit{
+  text-align: center;
+}
+
+.spanCarEdit{
+  margin-right: 20px;
+}
+
+.carEditButton{
+  margin-top: 15px;
+}
+
+.manufacturerPostButton{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.manufacturerPost{
+  margin-top: 40px;
+}
+.carManufacturerButton{
+margin-top: 15px;
+}
+.inputManufacturerEdit{
+  text-align: center;
+}
+.spanManufacturerEdit{
+  margin-right: 20px;
+}
+.manufacturersForEdit{
+  width: auto;
+}
